@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.edu.upeu.registro.MainActivity">
+
+
+    <item
+        android:id="@+id/action_synchronize"
+        android:orderInCategory="100"
+        android:title="@string/action_synchronize"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/action_edit"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_delete"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_activate"
+        android:orderInCategory="100"
+        android:title="@string/action_activate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tab"
+        android:orderInCategory="100"
+        android:title="@string/action_tab"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Inicio"
+        android:orderInCategory="100"
+        android:title="@string/action_inicio"
+        app:showAsAction="never" />
+
+</menu>
